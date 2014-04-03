@@ -4,7 +4,6 @@
 
 - [GitHub Styleguide](https://github.com/styleguide/)
 - [polarmobile/CoffeeScript Style Guide](https://github.com/polarmobile/coffeescript-style-guide)
-Meteor
 
 ## Contribute
 
