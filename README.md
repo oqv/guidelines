@@ -5,6 +5,7 @@
 - [GitHub on CSS, Markup, JavaScript, Words, and Mobile](https://github.com/styleguide/)
 - [Polar on CoffeeScript](https://github.com/polarmobile/coffeescript-style-guide)
 - [EventedMind on Meteor](https://github.com/eventedmind/em)
+- [Meteor on Commit Messages and JavaScript](https://github.com/meteor/meteor/wiki/Meteor-Style-Guide)
 
 ## Contribute
 
