@@ -1,10 +1,10 @@
-# Styleguides
+# Style Guides
 
 ## Shoulders of Giants
 
-- [GitHub Styleguide](https://github.com/styleguide/)
-- [polarmobile/CoffeeScript Style Guide](https://github.com/polarmobile/coffeescript-style-guide)
-Meteor
+- [GitHub on CSS, Markup, JavaScript, Words, and Mobile](https://github.com/styleguide/)
+- [Polar on CoffeeScript](https://github.com/polarmobile/coffeescript-style-guide)
+- [EventedMind on Meteor](https://github.com/eventedmind/em)
 
 ## Contribute
 
