@@ -6,6 +6,7 @@
 - [Polar on CoffeeScript](https://github.com/polarmobile/coffeescript-style-guide)
 - [EventedMind on Meteor](https://github.com/eventedmind/em)
 - [Meteor on Commit Messages and JavaScript](https://github.com/meteor/meteor/wiki/Meteor-Style-Guide)
+- [Voice and Tone by The Rocket Science Group](http://voiceandtone.com/)
 
 ## Contribute
 
