@@ -7,7 +7,7 @@ happens to be executable CoffeeScript code.
 
 This guide is derived from [CoffeeScript Style Guide][coffeescript-guide]
 maintained by [mjrusso][mjrusso].
-Substantive changes from that guide are: (1) [block comments](#block_comments)
+Substantive changes from that guide are: (1) [block comments](#block_comments),
 (2) [inline comments](#inline_comments), (3) [miscellaneous](#miscellaneous).
 
 ## Table of Contents
