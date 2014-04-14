@@ -1,6 +1,11 @@
 # Style Guides
 
+- [Literate CoffeeScript](https://github.com/romanzolotarev/styleguides/blob/master/javascript/litcoffee.md)
+
 ## Shoulders of Giants
+
+All guides have been inspired by several existing style guides and other resources.
+In particular:
 
 - [GitHub on CSS, Markup, JavaScript, Words, and Mobile](https://github.com/styleguide/)
 - [Polar on CoffeeScript](https://github.com/polarmobile/coffeescript-style-guide)
