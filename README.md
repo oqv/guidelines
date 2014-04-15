@@ -1,7 +1,7 @@
 # Style Guides
 
-- [Literate CoffeeScript](blob/master/javascript/litcoffee.md)
-- [Git Branch Names and Commit Messages](blob/master/javascript/litcoffee.md)
+- [Literate CoffeeScript](javascript/litcoffee.md)
+- [Git Branch Names and Commit Messages](git.md)
 
 ## Shoulders of Giants
 
