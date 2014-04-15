@@ -4,9 +4,12 @@
 
 - A branch name should be **30 characters or less**.
 - Use lowercase only.
-- Use prefixes: `add`, `remove`, `update`, `refactor`, `fix`.
-- Use slashes to separate parts, e.g. `add/my-feature`, `fix/crazy-bug`.
 - Use hypens to separate words.
+
+When there are ten branches or more:
+
+- Use prefixes : `add`, `remove`, `update`, `refactor`, `fix`.
+- Use slashes to separate parts, e.g. `add/my-feature`, `fix/crazy-bug`.
 
 **Caveat**: Branches are implemented as paths, so you cannot have a branch
 named `add/my-feature` and another branch named `add`.
@@ -16,9 +19,10 @@ named `add/my-feature` and another branch named `add`.
 - The first line should be **50 characters or less**.
 - Use the first line as a clear summary of the change.
 - Subsequent lines (if any) can be fairly verbose and detailed.
-- Use imperative language.
+- Use imperative language, e.g. `Update README.md`
 - Use prefixes: `Add`, `Remove`, `Update`, `Refactor`, `Fix`.
-- Capitalize the first letter. Use spaces between words. Place dot at the end.
+- Capitalize the first letter. Use spaces between words.
+- Avoid dot at the end of the first line.
 
 ## Bonus for GitHub Users
 
@@ -26,3 +30,5 @@ named `add/my-feature` and another branch named `add`.
 referencing the commit in the issue.
 
 - Place `#123` in the commit message for just referencing issue #123.
+
+- Names for Issue and Pull Requests
