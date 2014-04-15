@@ -1,4 +1,4 @@
-# Git
+# Git Guide
 
 ## Branch Names
 
