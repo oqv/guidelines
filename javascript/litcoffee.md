@@ -2,20 +2,19 @@
 
 This guide presents a collection of best-practices and coding conventions
 for the [Literate CoffeeScript][litcoffee] programming language.
-
 Literate CoffeeScript file is a Markdown document — a document that also
 happens to be executable CoffeeScript code.
 
 This guide is derived from [CoffeeScript Style Guide][coffeescript-guide]
 maintained by [mjrusso][mjrusso].
-
-Substantive changes from that guide are: (1) [block comments](#block_comments)
-(2) [inline comments](#inline_comments), (3)[miscellaneous](#miscellaneous).
+Substantive changes from that guide are: (1) [block comments](#block_comments),
+(2) [inline comments](#inline_comments), (3) [miscellaneous](#miscellaneous).
 
 ## Table of Contents
 
 The Literate CoffeeScript Style Guide
   * [Code Layout](#code_layout)
+      * [Code Blocks](#code_blocks)
       * [Tabs or Spaces?](#tabs_or_spaces)
       * [Maximum Line Length](#maximum_line_length)
       * [Blank Lines](#blank_lines)
@@ -39,6 +38,11 @@ The Literate CoffeeScript Style Guide
 
 <a name="code_layout"/>
 ## Code Layout
+
+<a name="code_blocks"/>
+### Code Blocks
+
+The beginning of code blocks should be indented by **4 spaces**.
 
 <a name="tabs_or_spaces"/>
 ### Tabs or Spaces?
@@ -183,7 +187,7 @@ is an identifier that begins with a lower-case letter.
 Block comments apply to the block of code that follows them.
 Each line of a block comment starts at a line beginning.
 
-```coffeescript
+```markdown
 
 # This Is a Header
 
