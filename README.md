@@ -1,6 +1,7 @@
 # Style Guides
 
-- [Literate CoffeeScript](https://github.com/romanzolotarev/styleguides/blob/master/javascript/litcoffee.md)
+- [Literate CoffeeScript](blob/master/javascript/litcoffee.md)
+- [Git Branch Names and Commit Messages](blob/master/javascript/litcoffee.md)
 
 ## Shoulders of Giants
 
