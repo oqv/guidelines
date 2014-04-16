@@ -21,7 +21,7 @@ named `add/my-feature` and another branch named `add`.
 - Subsequent lines (if any) can be fairly verbose and detailed.
 - Use imperative language, e.g. `Update README.md`
 - Use prefixes: `Add`, `Remove`, `Update`, `Refactor`, `Fix`.
-- Capitalize the first letter. Use spaces between words.
+- Capitalize the first letter. Separate words with spaces.
 - Avoid dot at the end of the first line.
 
 ## Bonus for GitHub Users
