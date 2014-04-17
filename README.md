@@ -2,6 +2,7 @@
 
 - [Literate CoffeeScript](javascript/litcoffee.md)
 - [Git Branch Names and Commit Messages](git.md)
+- [Titles](english/titles.md)
 
 ## Shoulders of Giants
 
