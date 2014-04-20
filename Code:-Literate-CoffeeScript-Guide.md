@@ -1,5 +1,3 @@
-# Literate CoffeeScript Style Guide
-
 This guide presents a collection of best-practices and coding conventions
 for the [Literate CoffeeScript][litcoffee] programming language.
 Literate CoffeeScript file is a Markdown document — a document that also
