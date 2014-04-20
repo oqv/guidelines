@@ -9,8 +9,6 @@ of **four or more letters**.
 four letters if it is the first or last word in a title.
 5. Lowercase the `to` in an infinitive.
 
-### Examples
-
 ```
 The Rules for Capitalizing the Words in a Title
 ```
