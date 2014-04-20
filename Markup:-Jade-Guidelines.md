@@ -1,6 +1,6 @@
 ## Maximum Line Length
 
-Limit all lines to a maximum of *79 characters*.
+Limit all lines to a maximum of **79 characters**.
 
 ## Tag Attributes
 
@@ -62,7 +62,7 @@ input(
 ## Text
 
 1. Keep a one-liner text in the same line with the tag.
-2. If there are more than one tag attribute or if text doesn't fit in to 79-char line
+2. If there are more than one tag attribute or if text doesn't fit into one line
 then pipe the text.
 
 ```jade
