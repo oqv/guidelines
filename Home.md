@@ -1,4 +1,11 @@
-- English: [[Titles|English: Title Guide]]
-- Git: [[Branching and Commits|Git: Branching and Commits]]
-- Markup: [[Jade|Markup: Jade Guide]]
-- Code: [[Literate CoffeeScript|Code: Literate CoffeeScript Guide]]
+English
+- [[Titles|English: Title Guide]]
+
+Code
+- [[Literate CoffeeScript|Code: Literate CoffeeScript Guide]]
+
+Markup
+- [[Jade|Markup: Jade Guide]]
+
+Git
+- [[Branching and Commits|Git: Branching and Commits]]
