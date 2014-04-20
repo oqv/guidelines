@@ -41,21 +41,18 @@ input(
 ```jade
 // Good
 input(
-  data-action='create'
   type='text'
   placeholder='name')
 
 // Bad
-input(data-action='create', type='text', placeholder='name')
+input(type='text', placeholder='name')
 
 // Bad
-input(data-action='create'
-  type='text'
+input(type='text'
   placeholder='name')
 
 // Bad
 input(
-  data-action='create'
   type='text'
   placeholder='name'
   )
