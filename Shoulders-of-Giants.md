@@ -10,6 +10,7 @@ and other resources. In particular:
 - [GitHub Flow by Scott Chacon][github-flow]
 - [GIT Conventions by TJ Holowaychuk][git-conventions]
 - [Git Branch Naming Best Practices by Phord][git-branch-naming]
+- [Coding Standards by Aaron Lord][coding-standards]
 
 [github-guide]: https://github.com/styleguide/
 [coffeescript-guide]: https://github.com/polarmobile/coffeescript-style-guide
@@ -20,3 +21,4 @@ and other resources. In particular:
 [github-flow]: http://scottchacon.com/2011/08/31/github-flow.html
 [git-conventions]: https://medium.com/code-adventures/a940ee20862d
 [git-branch-naming]: http://stackoverflow.com/a/6065944/314392
+[coding-standards]: https://github.com/lorddev/coding-standards
