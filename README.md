@@ -1,12 +1,11 @@
 # Guidelines
 
-We build these guides standing
-on [[the shoulders of giants][Shoulders-of-Giants]].
+Start from the [Home page](//github.com/romanzolotarev/guidelines/wiki/).
 
-- Code: [Literate CoffeeScript](javascript/litcoffee.md)
-- Markup: [Jade](html/jade.md)
-- Git: [Git Branch Names and Commit Messages](git.md)
-- English: [Titles](english/titles.md)
+## Thanks To
+
+We build these guides standing
+on [the shoulders of giants](//github.com/romanzolotarev/guidelines/wiki/Shoulders-of-Giants).
 
 ## Contribute
 
