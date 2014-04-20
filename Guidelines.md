@@ -1,1 +1,2 @@
-- English [[Titles|English:-Title-Guide]]
+- English: [[Titles|English: Title Guide]]
+- Git: [[Branching Model|Git: Branching Model]]
