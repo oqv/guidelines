@@ -18,7 +18,7 @@ and other resources. In particular:
 - [The Associated Press Stylebook][apstylebook]
 - [GitHub Flow by Scott Chacon][git-flow]
 - [GIT Conventions by TJ Holowaychuk][git-conventions]
-- [Git Branch Naming Best Practices by Phord][git-branch-naming
+- [Git Branch Naming Best Practices by Phord][git-branch-naming]
 
 ## Contribute
 
