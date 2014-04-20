@@ -14,11 +14,7 @@ please make sure you merge those changes into `master` of this repository:
 
 ```bash
 git remote add wiki git@github.com:romanzolotarev/guidelines.wiki.git
-git fetch wiki
-git checkout -b 1.0 wiki/master
-git checkout master
-git merge 1.0
-git commit
+git pull wiki master
 git push
 ```
 
