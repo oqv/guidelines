@@ -5,10 +5,10 @@
 
 ```jade
 // Good
-.input(value='{{session "name"}}')
+input(value='{{session "name"}}')
 
 // Bad
-.input(value="{{session 'name'}}")
+input(value="{{session 'name'}}")
 ```
 
 ## Multiple Attributes
