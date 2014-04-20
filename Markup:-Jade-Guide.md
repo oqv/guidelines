@@ -7,10 +7,10 @@
 
 ```jade
 // Good
-  .input(value='{{session "name"}}')
+.input(value='{{session "name"}}')
 
 // Bad
-  .input(value="{{session 'name'}}")
+.input(value="{{session 'name'}}")
 ```
 
 ## Multiple Attributes
@@ -21,23 +21,23 @@
 
 ```jade
 // Good
-  input(
-    data-action='create'
-    type='text'
-    placeholder='name')
+input(
+  data-action='create'
+  type='text'
+  placeholder='name')
 
 // Bad
-  input(data-action='create', type='text', placeholder='name')
+input(data-action='create', type='text', placeholder='name')
 
 // Bad
-  input(data-action='create'
-    type='text'
-    placeholder='name')
+input(data-action='create'
+  type='text'
+  placeholder='name')
 
 // Bad
-  input(
-    data-action='create'
-    type='text'
-    placeholder='name'
-    )
+input(
+  data-action='create'
+  type='text'
+  placeholder='name'
+  )
 ```
