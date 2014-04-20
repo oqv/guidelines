@@ -16,7 +16,7 @@ and other resources. In particular:
 - [Meteor on Commit Messages and JavaScript][meteor-guide]
 - [Voice and Tone by The Rocket Science Group][voiceandtone]
 - [The Associated Press Stylebook][apstylebook]
-- [GitHub Flow by Scott Chacon][git-flow]
+- [GitHub Flow by Scott Chacon][github-flow]
 - [GIT Conventions by TJ Holowaychuk][git-conventions]
 - [Git Branch Naming Best Practices by Phord][git-branch-naming]
 
