@@ -72,6 +72,12 @@ then pipe the text.
   a.menu__item(href='/about') About
 
 // Good
+.button(
+  data-action='save'
+  disabled={{isSaveDisabled}}) 
+    | Save
+
+// Good
 p.body
  | Tim earned an M.B.A. from Duke University, where he was a Fuqua Scholar, 
  | and a Bachelor of Science degree in Industrial Engineering from Auburn
