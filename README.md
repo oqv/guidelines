@@ -2,8 +2,6 @@
 
 Start from the [Home page](//github.com/romanzolotarev/guidelines/wiki/).
 
-## Thanks To
-
 We build these guides standing
 on [the shoulders of giants](//github.com/romanzolotarev/guidelines/wiki/Shoulders-of-Giants).
 
