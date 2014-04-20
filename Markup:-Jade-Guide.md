@@ -1,4 +1,10 @@
-## Single and Double Quotes
+## Maximum Line Length
+
+Limit all lines to a maximum of *79 characters*.
+
+## Tag Attributes
+
+### Single and Double Quotes
 
 1. Always use single quotes.
 2. Use double quotes inside single quotes only.
@@ -11,11 +17,24 @@ input(value='{{session "name"}}')
 input(value="{{session 'name'}}")
 ```
 
-## Multiple Attributes
+### Single Attribute
 
-1. Add a new line right after opening bracket.
-2. Separate attributes with new lines (exception - there is only one attribute).
-3. Keep closing bracket with the same line
+1. Keep an attribute in the same line with the tag.
+
+```jade
+// Good
+input(type='text')
+
+// Bad
+input(
+  type='text')
+```
+
+### Multiple Attributes
+
+1. Add a new line right after the opening bracket.
+2. Separate attributes with a new line.
+3. Keep the closing bracket within the same line.
 
 ```jade
 // Good
@@ -23,9 +42,6 @@ input(
   data-action='create'
   type='text'
   placeholder='name')
-
-// Good
-input(type='text')
 
 // Bad
 input(data-action='create', type='text', placeholder='name')
@@ -41,4 +57,33 @@ input(
   type='text'
   placeholder='name'
   )
+```
+
+## Text
+
+1. Keep a one-liner text in the same line with the tag.
+2. If there are more than one tag attribute or if text doesn't fit in to 79-char line
+then pipe the text.
+
+```jade
+// Good
+.menu
+  a.menu__item.active Home
+  a.menu__item(href='/about') About
+
+// Good
+p.body
+ | Tim earned an M.B.A. from Duke University, where he was a Fuqua Scholar, 
+ | and a Bachelor of Science degree in Industrial Engineering from Auburn
+ | University.
+
+// Bad
+.menu
+  a.menu__item.active.
+    Home
+  a.menu__item(href='/about') 
+    | About
+
+// Bad
+p.body Tim earned an M.B.A. from Duke University, where he was a Fuqua Scholar, and a Bachelor of Science degree in Industrial Engineering from Auburn University.
 ```
