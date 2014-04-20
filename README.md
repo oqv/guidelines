@@ -1,7 +1,7 @@
 # Style Guides
 
 - [Literate CoffeeScript](javascript/litcoffee.md)
-- [Git Branch Names and Commit Messages](html/jade.md)
+- [Jade](html/jade.md)
 - [Git Branch Names and Commit Messages](git.md)
 - [Titles](english/titles.md)
 
