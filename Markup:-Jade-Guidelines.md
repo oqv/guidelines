@@ -1,4 +1,6 @@
-## Maximum Line Length
+## Code Layout
+
+### Maximum Line Length
 
 Limit all lines to a maximum of **79 characters**.
 
