@@ -1,5 +1,3 @@
-# Jade Guide
-
 ## Single and Double Quotes
 
 1. Always use single quotes.
