@@ -84,6 +84,6 @@ p.body
   a.menu__item(href='/about') 
     | About
 
-// Bad
-p.body Tim earned an M.B.A. from Duke University, where he was a Fuqua Scholar, and a Bachelor of Science degree in Industrial Engineering from Auburn University.
+// Bad (82 characters in one line)
+p.body Tim earned an M.B.A. from Duke University, where he was a Fuqua Scholar...
 ```
