@@ -14,7 +14,6 @@ four letters if it is the first or last word in a title.
 The Rules for Capitalizing the Words in a Title
 ```
 
-
 ## Full Stop
 
 1. Avoid putting a full stop (period) at the end of a title.
