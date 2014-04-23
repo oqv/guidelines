@@ -3,7 +3,6 @@
 - Use full words.
 - Use singular noun for a object, e.g. `person`, `project`.
 - Use plural noun for a collection of objects, e.g. `people`, `projects`.
-- Use a verb for methods, e.g. `projects.set.name`, `projects.get`.
 
 ## Template Names
 
@@ -15,7 +14,11 @@ template(name='templateName')
 
 ## Methods
 
--
+- Use lowercase.
+- Separate words with the slash.
+- Use a verb for a method, e.g. `project/set/name`.
+
+E.g. `app/client/both/1.projects/1.project.set.name.litcoffee`
 
 ```coffee
 # Set Project Name
