@@ -11,6 +11,7 @@
 
 ### Names
 
+```
 app
 └─┬ both                                  // Both client and server
   │ ├─┬ 1.first.model
@@ -50,6 +51,7 @@ app
     └ unit                                // Test suite for the first model
       ├── 1.first.model.coffee
       └── 2.another.model.coffee
+```
 
 ### File Extensions
 
