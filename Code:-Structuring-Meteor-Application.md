@@ -1,11 +1,41 @@
-## HTML, CSS, Javascript
-
-## Template Names
+## Naming Conventions
 
 - Use full words.
 - Use singular noun for a object, e.g. `person`, `project`.
 - Use plural noun for a collection of objects, e.g. `people`, `projects`.
 - Use a verb for methods, e.g. `projects.set.name`, `projects.get`.
+
+## Template Names
+
+- Use camelCase.
+
+```jade
+template(name='templateName')
+```
+
+## Methods
+
+-
+
+```coffee
+# Set Project Name
+
+## Arguments
+
+project =
+  name: String # New name
+  _id: String # Id of the project
+
+## Returns
+
+true # The new name has been set
+false # There is an error
+
+    Meteor.methods
+
+      'project/set/name': (project) ->
+        ...
+```
 
 ## Files and Directories
 
