@@ -8,8 +8,11 @@
 
 - Use camelCase.
 
+E.g. `app/client/1.projects/1.project.jade.html`
+
 ```jade
 template(name='templateName')
+  ...
 ```
 
 ## Methods
@@ -18,7 +21,7 @@ template(name='templateName')
 - Separate words with the slash.
 - Use a verb for a method, e.g. `project/set/name`.
 
-E.g. `app/client/both/1.projects/1.project.set.name.litcoffee`
+E.g. `app/both/1.projects/1.project.set.name.litcoffee`
 
 ```coffee
 # Set Project Name
