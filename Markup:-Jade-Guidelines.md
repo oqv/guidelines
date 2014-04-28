@@ -1,4 +1,5 @@
-This guide presents a collection of best-practices for the [Jade](http://jade-lang.com/). Jade is a node template engine.
+This guide presents a collection of best-practices
+for the [Jade](http://jade-lang.com/). Jade is a node template engine.
 
 ## Code Layout
 
@@ -63,8 +64,8 @@ input(
 ## Text
 
 1. Keep a one-liner text in the same line with the tag.
-2. If there are more than one tag attribute or if text doesn't fit into one line
-then pipe the text.
+2. If there are more than one tag attribute or if text doesn't fit into one
+line then pipe the text.
 
 ```jade
 // Good
@@ -75,12 +76,12 @@ then pipe the text.
 // Good
 .button(
   data-action='save'
-  disabled={{isSaveDisabled}}) 
+  disabled={{isSaveDisabled}})
     | Save
 
 // Good
 p.body
- | Tim earned an M.B.A. from Duke University, where he was a Fuqua Scholar, 
+ | Tim earned an M.B.A. from Duke University, where he was a Fuqua Scholar,
  | and a Bachelor of Science degree in Industrial Engineering from Auburn
  | University.
 
@@ -88,7 +89,7 @@ p.body
 .menu
   a.menu__item.active.
     Home
-  a.menu__item(href='/about') 
+  a.menu__item(href='/about')
     | About
 
 // Bad (82 characters in one line)
