@@ -27,4 +27,4 @@ named `add/my-feature` and another branch named `add`.
 - Commit with a string like `Close #123` to close issue #123, along with
 referencing the commit in the issue.
 - Place `#123` in the commit message for just referencing issue #123.
-- Follow the guide for [Titles](english/titles.md) for Issues/Pull Requests.
+- Follow the guide for [Titles](English:-Title-Guidelines.md) for Issues/Pull Requests.
