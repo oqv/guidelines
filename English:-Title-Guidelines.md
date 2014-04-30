@@ -5,7 +5,7 @@
 and subordinating conjunctions (e.g. `as`, `because`, `although`, `if`).
 3. Capitalize the principal words, including prepositions and conjunctions
 of **four or more letters**.
-4. Capitalize an article--`the`, `a`, `an`--or words of fewer than
+4. Capitalize an article—`the`, `a`, `an`—or words of fewer than
 four letters if it is the first or last word in a title.
 5. Lowercase the `to` in an infinitive.
 
