@@ -1,13 +1,4 @@
-**English**
-- [[Titles|English: Title Guidelines]]
+Use the sidebar to navigate through guidelines.
+Please read [README.md][readme] to start contributing.
 
-**Markup**
-- [[Jade|Markup: Jade Guidelines]]
-
-**Git**
-- [[Branching and Commits|Git: Branching and Commits]]
-
-**Code** 
-- [[Literate CoffeeScript|Code: Literate CoffeeScript Guidelines]]
-- [[Structuring Meteor Application|Code:-Structuring-Meteor-Application]]
-- [[Laika Tests Guidelines|Code:-Laika-Tests-Guidelines]]
+[readme]: https://github.com/romanzolotarev/guidelines
