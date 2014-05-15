@@ -6,8 +6,9 @@
 **Markup**
 - [[Jade|Markup: Jade Guidelines]]
 
-**Git**
+**Git and GitHub**
 - [[Branching and Commits|Git: Branching and Commits]]
+- [[Issue Tracking|GitHub: Issue Tracking]]
 
 **English**
 - [[Titles|English: Title Guidelines]]
