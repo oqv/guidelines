@@ -45,7 +45,7 @@ A group of optional labels to indicate one of most frequent blockers or the next
 - Create a Milestone for the next Release. The only open Milestone with a Due Date.
   - _Open issues_ — Work in progress.
   - _Closed issues_ — Code is merged into `master` and deployed to production. 
-  - Mention key features in its description and link to the Release.
+  - Link to the Release in the description.
 
 - When Release is published close the Milestone.
 
