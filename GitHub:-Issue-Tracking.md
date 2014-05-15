@@ -8,6 +8,7 @@
 ### Issue Type
 
 Color: **Blackish**
+
 Every issue should have one of the following labels:
 
 - **Feature** - A distinguishing characteristic of a software item (e.g., performance, portability, or functionality).
@@ -17,6 +18,7 @@ Every issue should have one of the following labels:
 ### Area of Expertise
 
 Color: **Greenish**
+
 Set of skills required to close the issue. Basically it's a type of work.
 
 - **Design** - HTML/CSS.
@@ -27,6 +29,7 @@ Set of skills required to close the issue. Basically it's a type of work.
 ### Blockers
 
 Color: **Reddish**
+
 A group of optional labels to indicate one of most frequent blockers or the next required step. Examples:
 
 - **Product Requirements** - Clarification is needed.
@@ -35,6 +38,7 @@ A group of optional labels to indicate one of most frequent blockers or the next
 
 ## Description
 
+_TBD_
 
 ## Milestones
 
