@@ -5,9 +5,7 @@
 
 ## Labels
 
-### Issue Type
-
-Color: **Blackish**
+### Black
 
 Every issue should have one of the following labels:
 
@@ -15,9 +13,7 @@ Every issue should have one of the following labels:
 - **Bug** - An error, flaw, failure, or fault _found in released version_.
 - **Idea** - A question or suggestion.
 
-### Area of Expertise
-
-Color: **Greenish**
+### Green
 
 Set of skills required to close the issue. Basically it's a type of work.
 
@@ -26,9 +22,7 @@ Set of skills required to close the issue. Basically it's a type of work.
 - **Content** - Text, photos, videos.
 - **Admin** - Deployment.
 
-### Blockers
-
-Color: **Reddish**
+### Orange and Red
 
 A group of optional labels to indicate one of most frequent blockers or the next required step. Examples:
 
