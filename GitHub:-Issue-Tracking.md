@@ -38,8 +38,23 @@ A group of optional labels to indicate one of most frequent blockers or the next
 
 ## Description
 
-_TBD_
+### For Features
 
+1. Summary: What this feature is? Why do you want it?
+2. Description: Decompose into small small incremental steps. Attach helpful artifacts:
+  - **HTML/CSS** - Wireframes.
+  - **Frontend** - Use cases.
+  - **Backend** - Data models and methods (arguments, returns, etc).
+  - **Content** - Drafts or samples.
+
+### For Bugs
+
+1. Expected: What was the expected outcome?
+2. Actual: What happened instead? 
+3. Reproduction: How to recreate the problem?
+  - Link to demo or repository with reproduction code.
+  - Include system details e.g. the browser, library, or operating system version.
+  - Paste error output or logs. 
 ## Milestones
 
 - There is always open `Backlog` Milestone for Issues that may require triage or scheduled for future Releases. Move Issues from `Backlog` to the next Release Milestone when it's time.
