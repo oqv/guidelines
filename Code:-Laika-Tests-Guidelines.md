@@ -26,4 +26,18 @@ Order tests by method purpose:
 4. **Delete**: Remove, destroy.
 5. Other methods.
 
+### Coverage
+
+Everything method returns in the following cases should be tested:
+
+1. All possible cases with valid arguments.
+2. Critical cases with invalid arguments.
+
+### Interdependency 
+
+To test some methods we may need to call interdependent methods as well.
+
+For example to test is object updated properly we should sign user in first.
+To sign in we need to create a user account and so on.
+
 [laika]: http://arunoda.github.io/laika/
