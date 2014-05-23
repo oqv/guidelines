@@ -26,6 +26,15 @@ Order tests by method purpose:
 4. **Delete**: Remove, destroy.
 5. Other methods.
 
+### Sample Data
+
+Use sample data as close to real-life examples as possible.
+
+```
+assert.equal date, '2013-11-22T14:50:40.000Z' // Good
+assert.equal date, 'test' // Bad
+```
+
 ### Coverage
 
 Everything method returns in the following cases should be tested:
