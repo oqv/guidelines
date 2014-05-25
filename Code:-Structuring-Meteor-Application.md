@@ -81,10 +81,9 @@ app
   ├── private                             // Private static files
   ├── public                              // Public static files
   └─┬ tests
-    ├ integration                         // Test suite for the first view
-    │ ├── 1.first.view.coffee
-    │ └── 2.another.view.coffee
-    └ unit                                // Test suite for the first model
+    ├ both
+    ├ server
+    └ client                              
       ├── 1.first.model.coffee
       └── 2.another.model.coffee
 ```
