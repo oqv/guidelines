@@ -12,3 +12,6 @@
 
 **English**
 - [[Titles|English: Title Guidelines]]
+
+**The Process**
+- [[Communications|Communications]]
