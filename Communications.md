@@ -1,3 +1,3 @@
 - **GitHub Issues** and Pull Requests - Everything application releases depends on goes there.
-- **Trello Boards** - It's for business researches, actions, decisions. Customer Acquisition and Content Strategies.
+- **Trello Boards** - Business researches, decisions, action items. e.g. _Customer acquisition and content Strategies_.
 - **Slack and Hangouts** - Realtime chat.
