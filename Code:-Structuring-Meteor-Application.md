@@ -1,8 +1,8 @@
 ## Naming Conventions
 
 - Use full words.
-- Use singular noun for a object, e.g. `person`, `project`.
 - Use plural noun for a collection of objects, e.g. `people`, `projects`.
+- Use singular noun or adjective for a field, e.g. `name`, `modified`.
 
 ## Template Names
 
