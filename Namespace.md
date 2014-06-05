@@ -1,6 +1,6 @@
 ### Avoid object name duplication in property names.
 
-```
+```coffeescript
 // Good
 project = 
   name: 'The Project'
@@ -12,7 +12,7 @@ project =
 
 ### Avoid adjectives when possible.
 
-```
+```coffeescript
 // Good
 amount: 100
 
@@ -22,7 +22,7 @@ totalAmount: 100
 
 ### Use plurals for collections.
 
-```
+```coffeescript
 // Good
 books = 
   [
@@ -61,7 +61,7 @@ bookList =  // Avoid *list*, *group*, and other ugly suffixes.
 
 ### Respect acronyms. 
 
-```
+```coffeescript
 // Good
 HTMLTemplate
 
@@ -80,7 +80,7 @@ HtmlTemplate
 - Nationality
 - Material
 
-```
+```coffeescript
 // Good
 smallBookCover
 largePhoto
@@ -92,7 +92,7 @@ bookCoverSmall
 
 ### For functions place verbs before the noun.
 
-```
+```coffeescript
 // Good
 getName
 setName
@@ -104,7 +104,7 @@ nameSet
 
 ### Use the same verb for similar actions:
 
-```
+```coffeescript
 // Good
 setName
 
@@ -127,7 +127,7 @@ changeName
 
 ### Use `is` in front of boolean field names.
 
-```
+```coffeescript
 // Good
 isActive
 
@@ -136,9 +136,9 @@ active
 activated
 ```
 
-9. Use *At* or *In* suffixes for date and time.
+### Use *At* or *In* suffixes for date and time.
 
-```
+```coffeescript
 // Good
 modifiedAt: '2014-06-03T13:47:30+00:00'  // Date ISO 8601
 expiresIn: 123098 // Milliseconds from the moment
@@ -150,7 +150,7 @@ modified: '2014-06-03T13:47:30+00:00'
 
 10. Use full words when possible
 
-```
+```coffeescript
 // Good
 latitude
 longitude
