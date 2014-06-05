@@ -10,7 +10,7 @@ project =
   projectName: 'The Project'
 ```
 
-2. [Rule] Avoid adjectives when possible.
+2. Avoid adjectives when possible.
 
 ```
 // Good
@@ -91,6 +91,7 @@ bookCoverSmall
 ```
 
 6. For functions place verbs before the noun.
+
 ```
 // Good
 getName
@@ -102,7 +103,9 @@ nameSet
 ```
 
 7. Use the same verb for similar actions:
-```// Good
+
+```
+// Good
 setName
 
 // Okay (not recommended)
@@ -113,12 +116,13 @@ changeName
 ```
 
 *Recommended verbs*
-Update - change many properties of the object
-Create - create an object, insert in to the collection
-Delete - remove an object from the collection
-Set - change one property of the object
-Unset - remove the property from the object
-Get - read the object or its property
+
+- Update - change many properties of the object
+- Create - create an object, insert in to the collection
+- Delete - remove an object from the collection
+- Set - change one property of the object
+- Unset - remove the property from the object
+- Get - read the object or its property
 
 8. Use `is` in front of boolean field names.
 
