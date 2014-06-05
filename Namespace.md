@@ -1,4 +1,4 @@
-1. Avoid object name duplication in property names.
+### Avoid object name duplication in property names.
 
 ```
 // Good
@@ -10,7 +10,7 @@ project =
   projectName: 'The Project'
 ```
 
-2. Avoid adjectives when possible.
+### Avoid adjectives when possible.
 
 ```
 // Good
@@ -20,7 +20,7 @@ amount: 100
 totalAmount: 100
 ```
 
-3. Use plurals for collections.
+### Use plurals for collections.
 
 ```
 // Good
@@ -59,7 +59,7 @@ bookList =  // Avoid *list*, *group*, and other ugly suffixes.
 
 ```
 
-4. Respect acronyms. 
+### Respect acronyms. 
 
 ```
 // Good
@@ -69,7 +69,7 @@ HTMLTemplate
 HtmlTemplate
 ```
 
-5. Place adjectives before an noun in this order:
+### Place adjectives before an noun in this order:
 
 - General opinion
 - Specific opinion
@@ -90,7 +90,7 @@ photoLarge
 bookCoverSmall
 ```
 
-6. For functions place verbs before the noun.
+### For functions place verbs before the noun.
 
 ```
 // Good
@@ -102,7 +102,7 @@ nameGet
 nameSet
 ```
 
-7. Use the same verb for similar actions:
+### Use the same verb for similar actions:
 
 ```
 // Good
@@ -115,7 +115,7 @@ rename
 changeName
 ```
 
-*Recommended verbs*
+**Recommended verbs**
 
 - Update - change many properties of the object
 - Create - create an object, insert in to the collection
@@ -124,7 +124,8 @@ changeName
 - Unset - remove the property from the object
 - Get - read the object or its property
 
-8. Use `is` in front of boolean field names.
+
+### Use `is` in front of boolean field names.
 
 ```
 // Good
@@ -162,5 +163,5 @@ min
 
 // Bad
 lat
-longitude
+lng
 ```
