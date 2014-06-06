@@ -1,3 +1,16 @@
+This style guide includes recommendations for building JSON APIs in CoffeeScript syntax. In general, JSON APIs should follow the spec found at JSON.org. These guidelines are applicable to JSON requests and responses in APIs.
+
+## Property Name Guidelines
+
+### Property Name Format
+
+- Property names should be meaningful names with defined semantics.
+- Property names must be camel-cased, ASCII strings.
+- The first character must be a letter, an underscore (_), or a dollar sign ($).
+- Subsequent characters can be a letter, a digit, an underscore, or a dollar sign.
+- Reserved JavaScript keywords should be avoided.
+
+
 ### Avoid object name duplication in property names
 
 ```coffeescript
