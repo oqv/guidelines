@@ -1,4 +1,4 @@
-### Avoid object name duplication in property names.
+### Avoid object name duplication in property names
 
 ```coffeescript
 // Good
@@ -10,7 +10,7 @@ project =
   projectName: 'The Project'
 ```
 
-### Avoid adjectives when possible.
+### Avoid adjectives when possible
 
 ```coffeescript
 // Good
@@ -20,7 +20,7 @@ amount: 100
 totalAmount: 100
 ```
 
-### Use plurals for collections.
+### Use plurals for collections
 
 ```coffeescript
 // Good
@@ -41,10 +41,10 @@ books =
   ]
 
 // Bad
-bookList =  // Avoid *list*, *group*, and other ugly suffixes.
+bookList =  // Avoid *list*, *group*, and other ugly suffixes
   [
     title: 'Remote'
-    author:  // Avoid using singular for collections.
+    author:  // Avoid using singular for collections
       [
         'Jason Fried'
         'David Heinemeier Hansson'
@@ -59,7 +59,7 @@ bookList =  // Avoid *list*, *group*, and other ugly suffixes.
 
 ```
 
-### Respect acronyms. 
+### Respect acronyms
 
 ```coffeescript
 // Good
@@ -90,7 +90,7 @@ photoLarge
 bookCoverSmall
 ```
 
-### For functions place verbs before the noun.
+### For functions place verbs before the noun
 
 ```coffeescript
 // Good
@@ -102,7 +102,7 @@ nameGet
 nameSet
 ```
 
-### Use the same verb for similar actions:
+### Use the same verb for similar actions
 
 ```coffeescript
 // Good
@@ -125,7 +125,7 @@ changeName
 - Get - read the object or its property
 
 
-### Use `is` in front of boolean field names.
+### Use `is` prefix for boolean fields
 
 ```coffeescript
 // Good
@@ -136,7 +136,7 @@ active
 activated
 ```
 
-### Use *At* or *In* suffixes for date and time.
+### Use `At` or `In` suffixes for date and time fields
 
 ```coffeescript
 // Good
