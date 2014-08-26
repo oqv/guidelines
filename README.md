@@ -2,15 +2,14 @@
 
 Start from the [Home page][home].
 
-We build these guides standing
-on [the shoulders of giants][giants].
+We build these guides standing on [the shoulders of giants][giants].
 
-This repository consists of *Markdown* files for GitHub Wiki.
-Files may be edited in `master` branch of this repository.
-Later changes will be merged into the [Wiki repository][wiki].
+This repository consists of *Markdown* files for GitHub Wiki.  Files may be
+edited in `master` branch of this repository.  Later changes will be merged
+into the [Wiki repository][wiki].
 
-If changes are inadvertently made to the wiki repository directly,
-please make sure you merge those changes into `master` of this repository:
+If changes are inadvertently made to the wiki repository directly, please make
+sure you merge those changes into `master` of this repository:
 
 ```bash
 git remote add wiki git@github.com:romanzolotarev/guidelines.wiki.git
