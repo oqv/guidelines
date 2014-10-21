@@ -46,6 +46,9 @@ input(
 input(
   type='text'
   placeholder='name')
+  
+// Good
++block(arg='value' arg2='value2' arg3='value3')                     
 
 // Bad
 input(type='text', placeholder='name')
