@@ -38,7 +38,7 @@ input(
 ### Multiple Attributes
 
 1. Add a new line right after the opening bracket.
-2. Separate attributes with a new line.
+2. Separate attributes with a new line (except `+block` elements).
 3. Keep the closing bracket within the same line.
 
 ```jade
