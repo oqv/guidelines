@@ -1,17 +1,18 @@
 # The Plentiful Guidelines
 
+Here at The Plentiful we follow these guidelines and keep them updated.
+
 ## Code
-- [CoffeeScript](coffeescript.md)
 - [Structuring Meteor Application](meteor.md)
+- [CoffeeScript](coffeescript.md)
 - [Jade](jade.md)
 
-## Git and GitHub
+## Miscellaneous
 - [Branching and Commits](git.md)
 - [Issue Tracking](github-issues.md)
-
-## Miscellaneous
 - [Titles](titles.md)
-- [Communications](communications.md)
+
+---
 
 ## Thanks
 
