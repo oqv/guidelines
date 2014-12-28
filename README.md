@@ -28,4 +28,4 @@
 
 Please open an issue or a pull request to suggest changes or additions.
 
-[MIT licensed](LICENSE.md). Copyright 2014 [The Plentiful](http://www.plentiful.me).
+[MIT](LICENSE.md). Copyright 2014 [The Plentiful](http://www.plentiful.me).
