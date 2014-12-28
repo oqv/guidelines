@@ -1,3 +1,5 @@
+# Structuring Meteor Application
+
 ## Naming Conventions
 
 - Use full words.
