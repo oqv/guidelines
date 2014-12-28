@@ -26,6 +26,6 @@
 
 ## Contribute
 
-Please open an issue or a pull request to suggest changes or additions.
+Please create a pull request to suggest changes or additions.
 
 [MIT](LICENSE.md). Copyright 2014 [The Plentiful](http://www.plentiful.me).
