@@ -1,3 +1,5 @@
+# Jade
+
 This guide presents a collection of best-practices
 for the [Jade](http://jade-lang.com/). Jade is a node template engine.
 
