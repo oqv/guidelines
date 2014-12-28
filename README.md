@@ -1,5 +1,18 @@
 # The Plentiful Guidelines
 
+## Code
+- [CoffeeScript](coffeescript.md)
+- [Structuring Meteor Application](meteor.md)
+- [Jade](jade.md)
+
+## Git and GitHub
+- [Branching and Commits](git.md)
+- [Issue Tracking](github-issues.md)
+
+## Miscellaneous
+- [Titles](titles.md)
+- [Communications](communications.md)
+
 ## Thanks
 
 - [GitHub on CSS, Markup, JavaScript, Words, and Mobile][github-guide]
