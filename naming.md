@@ -1,3 +1,5 @@
+# Nameing Conventions
+
 This style guide includes recommendations for building JSON APIs in CoffeeScript syntax. In general, JSON APIs should follow the spec found at JSON.org. These guidelines are applicable to JSON requests and responses in APIs.
 
 ## Property Name Guidelines
