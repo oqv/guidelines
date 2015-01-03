@@ -42,4 +42,4 @@ Here at The Plentiful we follow these guidelines and keep them updated.
 
 Please create a pull request to suggest changes or additions.
 
-[MIT](LICENSE.md). Copyright 2014 [The Plentiful](http://www.plentiful.me).
+[MIT](LICENSE.md). Copyright [The Plentiful](http://www.plentiful.me).
