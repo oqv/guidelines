@@ -1,101 +1,63 @@
 # Structuring Meteor Application
 
-## Naming Conventions
+## Meteor.methods
 
-- Use full words.
-- Use plural noun for a collection of objects, e.g. `people`, `projects`.
-- Use singular noun or adjective for a field, e.g. `name`, `modified`.
+- names: `Agencies.getCurrent`,  `Agencies.getOneById`, `Agencies.getByMarketplaceId` 
+- files:
+  - methods: `app/server/methods/Agencies.coffee`
+  - test: `app/tests/jasmine/server/integration/server/methods/AgenciesSpec.coffee`
 
-## Template Names
+## Collections and Publications
 
-- Use camelCase.
+- collection names: 
+  - `Agencies`
+- publication names: 
+  - `Agencies.current`
+  - `Agencies.oneById`
+  - `Agencies.byMarketplaceId`
+- files: 
+  - schemas: `app/both/collections/Agencies.coffee`
+  - publications: `app/server/collections/Agencies.coffee`
+  - test: `app/tests/jasmine/server/integration/server/collections/AgenciesSpec.coffee`
 
-E.g. `app/client/1.projects/1.project.jade.html`
+## Routes, Events, Helpers, and Tempates
 
-```jade
-template(name='templateName')
-  ...
-```
+- Use `*.tpl.jade` instead of `*.jade` with `template(name='*')` in it.
 
-## Methods
+- route: `agency/1234567890/report` 
+- route and template name: `agencyReport`
+- files:
+  - styles: `app/client/Agencies/agencyReport.sass`
+  - template: `app/client/Agencies/agencyReport.tpl.jade`
+  - route: `app/client/Agencies/agencyReport.coffee`
+  - test: `app/tests/jasmine/client/integration/client/Agencies/agencyReportSpec.coffee`
+  
+## Controllers
 
-- Use lowercase.
-- Separate words with the slash.
-- Use a verb for a method, e.g. `project/set/name`.
+- If name ends with `-er` it's probably a set of methods. (It's a smell)
+- Name can be plural only if it uses list in the constructor `class @Agencies extends @Collection`.
+- `class @FormatURL extends @Format` - file `**/lib/FormatURL.coffee`
 
-E.g. `app/both/1.projects/1.project.set.name.litcoffee`
+- name: `class @Collection`
+- file: `**/lib/super/Collection.coffee`
+- test: `app/tests/jasmine/*/unit/**/lib/super/CollectionSpec.coffee`
 
-```coffee
-# Set Project Name
+## UI components
 
-## Arguments
+- Everything goes into packages (Sass, CSS, Jade partials, etc)
 
-project =
-  name: String # New name
-  _id: String # Id of the project
+### Helpers, Events, Templates
 
-## Returns
+- name: `UIButton` 
+- files: 
+  - styles: `app/packages/plentiful:ui-button/client/UIButton.sass`
+  - template: `app/packages/plentiful:ui-button/client/UIButton.tpl.jade`
+  - helpers (and events, routes): `app/packages/plentiful:ui-button/lib/UIButton.coffee` 
+  - template test: `app/packages/plentiful:ui-button/tests/jasmine/client/integration/UIButtonSpec.coffee`
 
-true # The new name has been set
-false # There is an error
+### Controllers
 
-    Meteor.methods
-
-      'project/set/name': (project) ->
-        ...
-```
-
-## Files and Directories
-
-### Names
-
-```
-app
-└─┬ both                                  // Both client and server
-  │ ├─┬ 1.first.model
-  │ │ ├── 1.first.method.litcoffee        // The method for the first model
-  │ │ ├── 2.another.method.litcoffee
-  │ │ └── 3.helper.litcoffee
-  │ ├── 2.another.model
-  │ ├─┬ collections
-  │ │ └── new.litcoffee                   // Collection declarations
-  │ ├── helpers                           // Helpers for all methods
-  │ ├── lib
-  │ └── configuration.litcoffee           // Global defaults, constants
-  ├─┬ server                              // Server only code
-  │ ├── 1.first.method.litcoffee          // The first server method
-  │ ├── 2.another.method.litcoffee
-  │ └─┬ collections
-  │   ├── permissions.litcoffee           // Insert, update, remove permissions
-  │   └── publish.litcoffee               // Publish collections
-  ├─┬ client                              // Client only
-  │ ├─┬ 1.first.view                      // The first view
-  │ │ ├── 1.first.view.styl
-  │ │ ├── 2.another.view.jade.html
-  │ │ ├── 3.layout.jade.html
-  │ │ └── 4.partial.jade.html
-  │ ├── 2.another.view                    // Templates and client methods
-  │ ├─┬ collections
-  │ │ └── subscribe.litcoffee             // Subscribe to collections
-  │ ├── layouts                           // Layouts for all views
-  │ ├── partials                          // Partials for all views
-  │ └── spec                              // Markup and styling Specifications
-  ├── private                             // Private static files
-  ├── public                              // Public static files
-  └─┬ tests
-    ├ both
-    ├ server
-    └ client                              
-      ├── 1.first.model.coffee
-      └── 2.another.model.coffee
-```
-
-### File Extensions
-
-- `.litcoffee` - Literate CoffeeScript
-- `.coffee` - Literate CoffeeScript
-- `.js` - JavaScript
-- `.jade.html` - Jade
-- `.html` - Spacebars
-- `.styl` - Stylus
-- `.scss` - SCSS
+- name: `class @UIButton extends @UI`
+- file: 
+  - class: `app/packages/plentiful:ui-button/lib/UIButton.coffee` 
+  - test: `app/packages/plentiful:ui-button/tests/jasmine/client/unit/UIButtonSpec.coffee`
